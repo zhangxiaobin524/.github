@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { MenuProvider } from './contexts/MenuContext';
 import Login from './pages/Login';
 import Dashboard from './pages/dashboard';
 import Users from './pages/users';
@@ -11,6 +12,21 @@ import Permission from './pages/permission';
 import Settings from './pages/settings';
 import TongueTwisters from './pages/tongue-twisters';
 import DailyExpressions from './pages/daily-expressions';
+import SpeechTechniques from './pages/speech-techniques';
+import LegalDocuments from './pages/legal-documents/LegalDocuments';
+import AppSettings from './pages/app-settings';
+import HelpCategories from './pages/help-categories';
+import HelpArticles from './pages/help-articles';
+import AIRoles from './pages/ai-roles';
+import VoiceTypes from './pages/voice-types';
+import UserSettings from './pages/UserSettings';
+import FeedbackManagement from './pages/FeedbackManagement';
+import OperationLogs from './pages/OperationLogs';
+import Comments from './pages/Comments';
+import FollowsCollections from './pages/FollowsCollections';
+import PostLikes from './pages/PostLikes';
+import ExposureModules from './pages/exposure-modules';
+import Videos from './pages/Videos';
 import Layout from './components/Layout';
 
 function App() {
@@ -28,8 +44,9 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
-      <Routes>
+    <MenuProvider>
+      <BrowserRouter>
+        <Routes>
         <Route
           path="/login"
           element={
@@ -137,6 +154,90 @@ function App() {
           }
         />
         <Route
+          path="/speech-techniques"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <SpeechTechniques />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/legal-documents"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <LegalDocuments />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/app-settings"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <AppSettings />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/help-categories"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <HelpCategories />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/help-articles"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <HelpArticles />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/ai-roles"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <AIRoles />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/voice-types"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <VoiceTypes />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
           path="/permission"
           element={
             isAuthenticated ? (
@@ -160,8 +261,105 @@ function App() {
             )
           }
         />
-      </Routes>
-    </BrowserRouter>
+        <Route
+          path="/user-settings"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <UserSettings />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/feedback"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <FeedbackManagement />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/operation-logs"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <OperationLogs />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/comments"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <Comments />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/follows-collections"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <FollowsCollections />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/post-likes"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <PostLikes />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/exposure-modules"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <ExposureModules />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/videos"
+          element={
+            isAuthenticated ? (
+              <Layout onLogout={() => setIsAuthenticated(false)}>
+                <Videos />
+              </Layout>
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        </Routes>
+      </BrowserRouter>
+    </MenuProvider>
   );
 }
 

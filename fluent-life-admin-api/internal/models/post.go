@@ -33,15 +33,27 @@ type PostLike struct {
 }
 
 type Comment struct {
-	ID        uuid.UUID `gorm:"type:uuid;primary_key;default:gen_random_uuid()" json:"id"`
-	PostID    uuid.UUID `gorm:"type:uuid;not null;index:idx_comments_post_id" json:"post_id"`
-	UserID    uuid.UUID `gorm:"type:uuid;not null;index:idx_comments_user_id" json:"user_id"`
-	Content   string    `gorm:"type:text;not null" json:"content"`
-	CreatedAt time.Time `json:"created_at"`
-	UpdatedAt time.Time `json:"updated_at"`
+	ID         uuid.UUID `gorm:"type:uuid;primary_key;default:gen_random_uuid()" json:"id"`
+	PostID     uuid.UUID `gorm:"type:uuid;not null;index:idx_comments_post_id" json:"post_id"`
+	UserID     uuid.UUID `gorm:"type:uuid;not null;index:idx_comments_user_id" json:"user_id"`
+	Content    string    `gorm:"type:text;not null" json:"content"`
+	LikesCount int       `gorm:"not null;default:0" json:"likes_count"`
+	CreatedAt  time.Time `json:"created_at"`
+	UpdatedAt  time.Time `json:"updated_at"`
 
-	Post Post `gorm:"foreignKey:PostID" json:"-"`
-	User User `gorm:"foreignKey:UserID" json:"user,omitempty"`
+	Post  Post          `gorm:"foreignKey:PostID" json:"-"`
+	User  User          `gorm:"foreignKey:UserID" json:"user,omitempty"`
+	Likes []CommentLike `gorm:"foreignKey:CommentID" json:"likes,omitempty"`
+}
+
+type CommentLike struct {
+	ID        uuid.UUID `gorm:"type:uuid;primary_key;default:gen_random_uuid()" json:"id"`
+	CommentID uuid.UUID `gorm:"type:uuid;not null;uniqueIndex:idx_comment_likes_comment_user;index:idx_comment_likes_comment_id" json:"comment_id"`
+	UserID    uuid.UUID `gorm:"type:uuid;not null;uniqueIndex:idx_comment_likes_comment_user;index:idx_comment_likes_user_id" json:"user_id"`
+	CreatedAt time.Time `json:"created_at"`
+
+	Comment Comment `gorm:"foreignKey:CommentID" json:"-"`
+	User    User    `gorm:"foreignKey:UserID" json:"-"`
 }
 
 type PostCollection struct {
@@ -71,6 +83,13 @@ func (pl *PostLike) BeforeCreate(tx *gorm.DB) error {
 func (c *Comment) BeforeCreate(tx *gorm.DB) error {
 	if c.ID == uuid.Nil {
 		c.ID = uuid.New()
+	}
+	return nil
+}
+
+func (cl *CommentLike) BeforeCreate(tx *gorm.DB) error {
+	if cl.ID == uuid.Nil {
+		cl.ID = uuid.New()
 	}
 	return nil
 }

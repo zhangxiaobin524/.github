@@ -14,6 +14,8 @@ type MeditationProgress struct {
 	CompletedDays int       `gorm:"not null;default:0" json:"completed_days"`
 	Unlocked      bool      `gorm:"not null;default:false" json:"unlocked"`
 	UpdatedAt     time.Time `json:"updated_at"`
+	CreatedAt     time.Time `json:"created_at"`
+	DeletedAt     gorm.DeletedAt `gorm:"index" json:"deleted_at,omitempty"`
 
 	User User `gorm:"foreignKey:UserID" json:"-"`
 }

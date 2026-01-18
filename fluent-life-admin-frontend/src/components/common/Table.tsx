@@ -15,7 +15,14 @@ interface TableProps<T> {
   dataSource: T[];
   loading?: boolean;
   rowKey?: string | ((record: T) => string);
-  onRow?: (record: T) => React.HTMLAttributes<HTMLTableRowElement>;
+  onRow?: (record: T) => React.HTMLAttributes<HTMLTableRowElement> & {
+    draggable?: boolean;
+    onDragStart?: (e: React.DragEvent) => void;
+    onDragEnd?: (e: React.DragEvent) => void;
+    onDragOver?: (e: React.DragEvent) => void;
+    onDragLeave?: () => void;
+    onDrop?: (e: React.DragEvent) => void;
+  };
   pagination?: {
     current: number;
     pageSize: number;
@@ -91,11 +98,12 @@ function Table<T extends Record<string, any>>({
               dataSource.map((record, index) => {
                 const key = getRowKey(record, index);
                 const rowProps = onRow ? onRow(record) : {};
+                const { className: rowClassName, ...restRowProps } = rowProps;
                 return (
                   <tr
                     key={key}
-                    {...rowProps}
-                    className={clsx('hover:bg-gray-50 transition-colors', {
+                    {...restRowProps}
+                    className={clsx('hover:bg-gray-50 transition-colors', rowClassName, {
                       'bg-gray-50': striped && index % 2 === 1,
                       'border border-gray-200': bordered,
                     })}

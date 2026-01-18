@@ -3,7 +3,7 @@ import { adminAPI } from '../services/api';
 import { TrainingRecord } from '../types/index';
 import Card from '../components/common/Card';
 import Table from '../components/common/Table';
-import { Activity, TrendingUp, Clock } from 'lucide-react';
+import { Activity, TrendingUp, Clock, Edit, Trash2, Eye } from 'lucide-react';
 import { format } from 'date-fns';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
@@ -14,6 +14,11 @@ const Training: React.FC = () => {
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
   const [filterType, setFilterType] = useState('');
+  const [selectedRecords, setSelectedRecords] = useState<string[]>([]);
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [editingRecord, setEditingRecord] = useState<TrainingRecord | null>(null);
+  const [showDetailModal, setShowDetailModal] = useState(false);
+  const [detailRecord, setDetailRecord] = useState<TrainingRecord | null>(null);
 
   useEffect(() => {
     loadStats();
@@ -110,7 +115,85 @@ const Training: React.FC = () => {
     { name: '周日', 训练: 210, 用户: 65 },
   ];
 
+  const handleEdit = (record: TrainingRecord) => {
+    setEditingRecord(record);
+    setShowEditModal(true);
+  };
+
+  const handleView = async (record: TrainingRecord) => {
+    try {
+      const response = await adminAPI.getTrainingRecord(record.id);
+      if (response.code === 0) {
+        setDetailRecord(response.data);
+        setShowDetailModal(true);
+      }
+    } catch (error) {
+      console.error('获取详情失败:', error);
+      alert('获取详情失败');
+    }
+  };
+
+  const handleDelete = async (ids: string[]) => {
+    if (!confirm(`确定要删除这 ${ids.length} 条训练记录吗？`)) {
+      return;
+    }
+    try {
+      const response = await adminAPI.deleteTrainingRecordsBatch(ids);
+      if (response.code === 0) {
+        alert('删除成功');
+        loadRecords();
+        setSelectedRecords([]);
+      } else {
+        alert('删除失败: ' + response.message);
+      }
+    } catch (error) {
+      console.error('删除失败:', error);
+      alert('删除失败');
+    }
+  };
+
+  const handleSaveEdit = async () => {
+    if (!editingRecord) return;
+    try {
+      const response = await adminAPI.updateTrainingRecord(editingRecord.id, {
+        type: editingRecord.type,
+        duration: editingRecord.duration,
+        timestamp: editingRecord.timestamp,
+        data: editingRecord.data,
+      });
+      if (response.code === 0) {
+        alert('更新成功');
+        setShowEditModal(false);
+        setEditingRecord(null);
+        loadRecords();
+      } else {
+        alert('更新失败: ' + response.message);
+      }
+    } catch (error) {
+      console.error('更新失败:', error);
+      alert('更新失败');
+    }
+  };
+
   const columns = [
+    {
+      key: 'checkbox',
+      title: '',
+      render: (_: any, record: TrainingRecord) => (
+        <input
+          type="checkbox"
+          checked={selectedRecords.includes(record.id)}
+          onChange={(e) => {
+            if (e.target.checked) {
+              setSelectedRecords([...selectedRecords, record.id]);
+            } else {
+              setSelectedRecords(selectedRecords.filter(id => id !== record.id));
+            }
+          }}
+          className="w-4 h-4 text-blue-600 rounded"
+        />
+      ),
+    },
     {
       key: 'type',
       title: '训练类型',
@@ -140,6 +223,35 @@ const Training: React.FC = () => {
       title: '训练时间',
       dataIndex: 'timestamp' as keyof TrainingRecord,
       render: (value: string) => format(new Date(value), 'yyyy-MM-dd HH:mm'),
+    },
+    {
+      key: 'actions',
+      title: '操作',
+      render: (_: any, record: TrainingRecord) => (
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => handleView(record)}
+            className="p-1 text-blue-600 hover:bg-blue-50 rounded"
+            title="查看详情"
+          >
+            <Eye className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => handleEdit(record)}
+            className="p-1 text-green-600 hover:bg-green-50 rounded"
+            title="编辑"
+          >
+            <Edit className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => handleDelete([record.id])}
+            className="p-1 text-red-600 hover:bg-red-50 rounded"
+            title="删除"
+          >
+            <Trash2 className="w-4 h-4" />
+          </button>
+        </div>
+      ),
     },
   ];
 
@@ -217,7 +329,7 @@ const Training: React.FC = () => {
 
       {/* 数据表格 */}
       <Card shadow>
-        <div className="mb-4">
+        <div className="mb-4 flex items-center justify-between">
           <select
             value={filterType}
             onChange={(e) => {
@@ -232,6 +344,14 @@ const Training: React.FC = () => {
             <option value="exposure">社会脱敏</option>
             <option value="practice">AI实战</option>
           </select>
+          {selectedRecords.length > 0 && (
+            <button
+              onClick={() => handleDelete(selectedRecords)}
+              className="px-4 py-2 bg-red-600 text-white rounded text-sm hover:bg-red-700"
+            >
+              批量删除 ({selectedRecords.length})
+            </button>
+          )}
         </div>
         <Table
           columns={columns}
@@ -246,6 +366,111 @@ const Training: React.FC = () => {
           }}
         />
       </Card>
+
+      {/* 编辑模态框 */}
+      {showEditModal && editingRecord && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-md">
+            <h2 className="text-xl font-semibold mb-4">编辑训练记录</h2>
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">训练类型</label>
+                <select
+                  value={editingRecord.type}
+                  onChange={(e) => setEditingRecord({ ...editingRecord, type: e.target.value })}
+                  className="w-full px-3 py-2 border border-gray-300 rounded"
+                >
+                  <option value="meditation">正念冥想</option>
+                  <option value="airflow">气流练习</option>
+                  <option value="exposure">社会脱敏</option>
+                  <option value="practice">AI实战</option>
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">训练时长（秒）</label>
+                <input
+                  type="number"
+                  value={editingRecord.duration}
+                  onChange={(e) => setEditingRecord({ ...editingRecord, duration: parseInt(e.target.value) })}
+                  className="w-full px-3 py-2 border border-gray-300 rounded"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">训练时间</label>
+                <input
+                  type="datetime-local"
+                  value={format(new Date(editingRecord.timestamp), "yyyy-MM-dd'T'HH:mm")}
+                  onChange={(e) => setEditingRecord({ ...editingRecord, timestamp: new Date(e.target.value) })}
+                  className="w-full px-3 py-2 border border-gray-300 rounded"
+                />
+              </div>
+            </div>
+            <div className="mt-6 flex justify-end gap-2">
+              <button
+                onClick={() => {
+                  setShowEditModal(false);
+                  setEditingRecord(null);
+                }}
+                className="px-4 py-2 border border-gray-300 rounded text-sm"
+              >
+                取消
+              </button>
+              <button
+                onClick={handleSaveEdit}
+                className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700"
+              >
+                保存
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 详情模态框 */}
+      {showDetailModal && detailRecord && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-2xl max-h-[80vh] overflow-y-auto">
+            <h2 className="text-xl font-semibold mb-4">训练记录详情</h2>
+            <div className="space-y-3">
+              <div>
+                <span className="text-sm font-medium text-gray-700">训练类型：</span>
+                <span className="text-sm text-gray-900 ml-2">{getTypeName(detailRecord.type)}</span>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-gray-700">用户：</span>
+                <span className="text-sm text-gray-900 ml-2">{detailRecord.user?.username || '未知用户'}</span>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-gray-700">训练时长：</span>
+                <span className="text-sm text-gray-900 ml-2">{Math.floor(detailRecord.duration / 60)} 分钟</span>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-gray-700">训练时间：</span>
+                <span className="text-sm text-gray-900 ml-2">{format(new Date(detailRecord.timestamp), 'yyyy-MM-dd HH:mm:ss')}</span>
+              </div>
+              {detailRecord.data && Object.keys(detailRecord.data).length > 0 && (
+                <div>
+                  <span className="text-sm font-medium text-gray-700">训练数据：</span>
+                  <pre className="text-sm text-gray-900 mt-2 bg-gray-50 p-3 rounded overflow-auto">
+                    {JSON.stringify(detailRecord.data, null, 2)}
+                  </pre>
+                </div>
+              )}
+            </div>
+            <div className="mt-6 flex justify-end">
+              <button
+                onClick={() => {
+                  setShowDetailModal(false);
+                  setDetailRecord(null);
+                }}
+                className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700"
+              >
+                关闭
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

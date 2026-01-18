@@ -13,7 +13,7 @@ const Dashboard: React.FC = () => {
 
   const loadStats = async () => {
     try {
-      const response = await adminAPI.getTrainingStats();
+      const response = await adminAPI.getDetailedStats();
       if (response.code === 0) {
         setStats(response.data);
       }
@@ -31,6 +31,14 @@ const Dashboard: React.FC = () => {
       bgColor: 'bg-blue-50',
     },
     {
+      title: '活跃用户',
+      value: stats?.active_users || 0,
+      subtitle: '最近7天',
+      icon: TrendingUp,
+      color: 'text-purple-600',
+      bgColor: 'bg-purple-50',
+    },
+    {
       title: '总训练记录',
       value: stats?.total_records || 0,
       icon: Activity,
@@ -38,19 +46,41 @@ const Dashboard: React.FC = () => {
       bgColor: 'bg-green-50',
     },
     {
-      title: '今日活跃',
-      value: '1,234',
-      icon: TrendingUp,
-      color: 'text-purple-600',
-      bgColor: 'bg-purple-50',
-    },
-    {
-      title: '平均时长',
-      value: '24.5',
+      title: '总训练时长',
+      value: stats?.total_duration || 0,
       unit: '分钟',
       icon: Clock,
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
+    },
+    {
+      title: '平均时长',
+      value: stats?.avg_duration || 0,
+      unit: '分钟',
+      icon: Clock,
+      color: 'text-cyan-600',
+      bgColor: 'bg-cyan-50',
+    },
+    {
+      title: '总帖子数',
+      value: stats?.total_posts || 0,
+      icon: Activity,
+      color: 'text-indigo-600',
+      bgColor: 'bg-indigo-50',
+    },
+    {
+      title: '总评论数',
+      value: stats?.total_comments || 0,
+      icon: Activity,
+      color: 'text-pink-600',
+      bgColor: 'bg-pink-50',
+    },
+    {
+      title: '总点赞数',
+      value: stats?.total_likes || 0,
+      icon: Activity,
+      color: 'text-red-600',
+      bgColor: 'bg-red-50',
     },
   ];
 
@@ -62,6 +92,14 @@ const Dashboard: React.FC = () => {
     { name: '周五', 训练: 90, 用户: 35 },
     { name: '周六', 训练: 230, 用户: 78 },
     { name: '周日', 训练: 210, 用户: 65 },
+  ];
+
+  // 训练类型分布数据
+  const trainingTypeData = stats?.training_type_distribution || [
+    { name: '冥想', value: 0 },
+    { name: '气流', value: 0 },
+    { name: '暴露', value: 0 },
+    { name: '其他', value: 0 },
   ];
 
   return (
@@ -80,6 +118,7 @@ const Dashboard: React.FC = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-gray-600 mb-1">{card.title}</p>
+                  {card.subtitle && <p className="text-xs text-gray-400 mb-1">{card.subtitle}</p>}
                   <div className="flex items-baseline gap-1">
                     <p className="text-2xl font-semibold text-gray-900">{card.value}</p>
                     {card.unit && <span className="text-sm text-gray-500">{card.unit}</span>}
@@ -118,7 +157,7 @@ const Dashboard: React.FC = () => {
 
         <Card title="训练类型分布" shadow>
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={weeklyData}>
+            <BarChart data={trainingTypeData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="name" stroke="#6b7280" />
               <YAxis stroke="#6b7280" />
@@ -129,9 +168,7 @@ const Dashboard: React.FC = () => {
                   borderRadius: '6px',
                 }}
               />
-              <Legend />
-              <Bar dataKey="训练" fill="#3b82f6" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="用户" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="value" fill="#3b82f6" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </Card>

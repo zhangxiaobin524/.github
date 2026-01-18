@@ -131,6 +131,164 @@ export const adminAPI = {
     const response = await api.post('/admin/daily-expressions/delete-batch', { ids });
     return response.data;
   },
+
+  // AI角色管理
+  getAIRoles: async () => {
+    const response = await api.get('/admin/ai-roles');
+    return response.data;
+  },
+  createAIRole: async (data: any) => {
+    const response = await api.post('/admin/ai-roles', data);
+    return response.data;
+  },
+  updateAIRole: async (id: string, data: any) => {
+    const response = await api.put(`/admin/ai-roles/${id}`, data);
+    return response.data;
+  },
+  deleteAIRole: async (id: string) => {
+    const response = await api.delete(`/admin/ai-roles/${id}`);
+    return response.data;
+  },
+  initAIRolesFromConfig: async () => {
+    const response = await api.post('/admin/ai-roles/init-from-config');
+    return response.data;
+  },
+
+  // 音色管理
+  getVoiceTypes: async () => {
+    const response = await api.get('/admin/voice-types');
+    return response.data;
+  },
+  getEnabledVoiceTypes: async () => {
+    const response = await api.get('/admin/voice-types/enabled');
+    return response.data;
+  },
+  getVoiceType: async (id: string) => {
+    const response = await api.get(`/admin/voice-types/${id}`);
+    return response.data;
+  },
+  createVoiceType: async (data: any) => {
+    const response = await api.post('/admin/voice-types', data);
+    return response.data;
+  },
+  updateVoiceType: async (id: string, data: any) => {
+    const response = await api.put(`/admin/voice-types/${id}`, data);
+    return response.data;
+  },
+  deleteVoiceType: async (id: string) => {
+    const response = await api.delete(`/admin/voice-types/${id}`);
+    return response.data;
+  },
+
+  // 脱敏练习场景管理
+  getExposureModules: async (params: { page?: number; page_size?: number; keyword?: string }) => {
+    const response = await api.get('/admin/exposure/modules', { params });
+    return response.data;
+  },
+  getExposureModule: async (id: string) => {
+    const response = await api.get(`/admin/exposure/modules/${id}`);
+    return response.data;
+  },
+  createExposureModule: async (data: any) => {
+    const response = await api.post('/admin/exposure/modules', data);
+    return response.data;
+  },
+  updateExposureModule: async (id: string, data: any) => {
+    const response = await api.put(`/admin/exposure/modules/${id}`, data);
+    return response.data;
+  },
+  deleteExposureModule: async (id: string) => {
+    const response = await api.delete(`/admin/exposure/modules/${id}`);
+    return response.data;
+  },
+  batchUpdateModulesOrder: async (modules: Array<{ id: string; order: number }>) => {
+    const response = await api.put('/admin/exposure/modules/order', { modules });
+    return response.data;
+  },
+
+  // 脱敏练习步骤管理
+  getExposureModuleSteps: async (moduleId: string) => {
+    const response = await api.get(`/admin/exposure/modules/${moduleId}/steps`);
+    return response.data;
+  },
+  createExposureStep: async (moduleId: string, data: any) => {
+    const response = await api.post(`/admin/exposure/modules/${moduleId}/steps`, data);
+    return response.data;
+  },
+  updateExposureStep: async (stepId: string, data: any) => {
+    const response = await api.put(`/admin/exposure/steps/${stepId}`, data);
+    return response.data;
+  },
+  deleteExposureStep: async (stepId: string) => {
+    const response = await api.delete(`/admin/exposure/steps/${stepId}`);
+    return response.data;
+  },
+  batchUpdateStepsOrder: async (moduleId: string, steps: Array<{ id: string; order: number }>) => {
+    const response = await api.put(`/admin/exposure/modules/${moduleId}/steps/order`, { steps });
+    return response.data;
+  },
+
+  // 视频管理
+  getVideos: async (params?: { page?: number; page_size?: number; source?: string; user_id?: string; module_id?: string }) => {
+    const response = await api.get('/admin/videos', { params });
+    return response.data;
+  },
+  getVideoDetail: async (id: string, source?: string) => {
+    const response = await api.get(`/admin/videos/${id}`, { params: { source } });
+    return response.data;
+  },
+  deleteVideo: async (id: string, source?: string) => {
+    const response = await api.delete(`/admin/videos/${id}`, { params: { source } });
+    return response.data;
+  },
+  batchDeleteVideos: async (videoIds: Array<{ id: string; source: string }>) => {
+    const response = await api.post('/admin/videos/batch-delete', { video_ids: videoIds });
+    return response.data;
+  },
+
+  // 权限管理 - 角色管理
+  getRoles: async (params?: { page?: number; page_size?: number }) => {
+    const response = await api.get('/admin/roles', { params });
+    return response.data;
+  },
+  getRole: async (id: string) => {
+    const response = await api.get(`/admin/roles/${id}`);
+    return response.data;
+  },
+  createRole: async (data: { name: string; code: string; description?: string; permissions?: string[] }) => {
+    const response = await api.post('/admin/roles', data);
+    return response.data;
+  },
+  updateRole: async (id: string, data: { name?: string; code?: string; description?: string; permissions?: string[] }) => {
+    const response = await api.put(`/admin/roles/${id}`, data);
+    return response.data;
+  },
+  deleteRole: async (id: string) => {
+    const response = await api.delete(`/admin/roles/${id}`);
+    return response.data;
+  },
+
+  // 权限管理 - 菜单管理
+  getMenus: async (params?: { page?: number; page_size?: number }) => {
+    const response = await api.get('/admin/menus', { params });
+    return response.data;
+  },
+  getMenu: async (id: string) => {
+    const response = await api.get(`/admin/menus/${id}`);
+    return response.data;
+  },
+  createMenu: async (data: { name: string; path?: string; icon?: string; parent_id?: string; sort?: number }) => {
+    const response = await api.post('/admin/menus', data);
+    return response.data;
+  },
+  updateMenu: async (id: string, data: { name?: string; path?: string; icon?: string; parent_id?: string; sort?: number }) => {
+    const response = await api.put(`/admin/menus/${id}`, data);
+    return response.data;
+  },
+  deleteMenu: async (id: string) => {
+    const response = await api.delete(`/admin/menus/${id}`);
+    return response.data;
+  },
 };
 
 export default api;

@@ -44,7 +44,9 @@ export interface TrainingRecord {
   user_id: string;
   type: string;
   duration: number;
+  data?: Record<string, any>;
   timestamp: string;
+  created_at: string;
   user?: User;
 }
 

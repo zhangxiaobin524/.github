@@ -110,7 +110,9 @@ func InitDB(cfg *Config) (*gorm.DB, error) {
 		)
 	}
 
-	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
+		PrepareStmt: false, // 禁用预编译语句，避免表结构变更后的计划缓存问题
+	})
 	if err != nil {
 		return nil, fmt.Errorf("failed to connect database: %w", err)
 	}
