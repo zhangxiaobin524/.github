@@ -1,0 +1,816 @@
+
+> fluent-life-admin-frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 178 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+9:54:07 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:54:07 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:54:07 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:54:07 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:54:11 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:54:11 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+10:08:06 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+10:08:06 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+10:08:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+10:08:06 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+10:08:06 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+10:08:07 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+10:08:07 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+10:08:07 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+10:08:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+10:08:07 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+10:08:08 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+10:08:08 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+10:08:08 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+10:08:08 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+10:08:08 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+10:08:08 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+10:08:08 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+10:08:08 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:09:18 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+3:09:18 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:09:18 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:09:33 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:09:47 PM [vite] (client) hmr update /src/index.css
+3:09:51 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:09:56 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:10:00 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:10:09 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx
+3:10:10 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:10:10 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:10:25 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:10:25 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx
+3:10:25 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:10:25 PM [vite] (client) hmr update /src/index.css
+3:10:25 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:10:25 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:10:25 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:10:25 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:14:16 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:14:16 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx
+3:14:16 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:14:16 PM [vite] (client) hmr update /src/index.css
+3:14:16 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:14:16 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:14:17 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:14:17 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:30:06 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:31:30 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx
+3:31:30 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:31:30 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:31:54 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:32:21 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:33:05 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+3:33:05 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:33:05 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:33:05 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:33:06 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:33:06 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:33:24 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:33:24 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:33:24 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:33:24 PM [vite] (client) hmr update /src/index.css
+3:33:24 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:33:24 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:33:24 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+3:33:25 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:33:25 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:39:43 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:39:43 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:39:43 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:39:43 PM [vite] (client) hmr update /src/index.css
+3:39:43 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:39:43 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:39:43 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+3:39:43 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:39:43 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:41:49 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:41:50 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:41:50 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:41:50 PM [vite] (client) hmr update /src/index.css, /src/components/form/Button.tsx
+3:41:50 PM [vite] (client) hmr update /src/index.css, /src/components/form/Button.tsx
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:41:51 PM [vite] (client) hmr update /src/pages/Posts.tsx, /src/index.css
+3:41:51 PM [vite] (client) hmr update /src/pages/Rooms.tsx, /src/index.css
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserModal.tsx
+3:41:51 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:41:51 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:41:51 PM [vite] (client) hmr update /src/index.css
+3:41:52 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:41:52 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:47:57 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:47:57 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:47:57 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:47:57 PM [vite] (client) hmr update /src/index.css
+3:47:57 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:47:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:47:57 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+3:47:58 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:47:58 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:49:17 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:49:17 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:49:17 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+3:49:17 PM [vite] (client) hmr update /src/index.css
+3:49:17 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:49:17 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:49:17 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+3:49:18 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:49:18 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+4:00:52 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+4:00:52 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+4:00:52 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+4:00:52 PM [vite] (client) hmr update /src/index.css
+4:00:52 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+4:00:52 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+4:00:52 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+4:00:52 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+4:00:52 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+4:08:33 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+4:08:33 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+4:08:33 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+4:08:33 PM [vite] (client) hmr update /src/index.css
+4:08:33 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+4:08:33 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+4:08:33 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+4:08:34 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+4:08:34 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+4:13:19 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+4:13:19 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+4:13:19 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+4:13:19 PM [vite] (client) hmr update /src/index.css
+4:13:19 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+4:13:19 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+4:13:19 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+4:13:19 PM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+4:13:20 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+4:13:20 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:40:03 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+10:40:30 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:41:31 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+10:41:59 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:41:59 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+10:45:24 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:45:24 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+11:21:21 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+11:21:21 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+11:21:21 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+11:21:34 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+11:21:35 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+11:21:35 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+11:28:44 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+11:29:40 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+11:29:40 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+11:29:40 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+11:29:40 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+9:29:23 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:29:34 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:29:48 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:30:11 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:30:22 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:30:34 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:31:58 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:32:09 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:32:21 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:32:32 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:32:43 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:32:55 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:33:17 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:33:29 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:33:54 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:34:11 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:34:42 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:34:54 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:35:12 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:35:23 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:35:48 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:35:58 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:36:10 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:36:35 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:36:45 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:36:57 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:37:33 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:37:45 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:39:54 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:40:07 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:40:18 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:40:30 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:40:43 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:47:41 AM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+9:47:43 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:47:44 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+9:47:44 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:47:44 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+9:47:45 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:53:41 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+9:53:41 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+9:53:41 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+9:53:42 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/RandomMatch.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+9:53:42 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:53:42 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+9:53:43 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+9:53:43 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+9:53:43 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+9:53:43 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:53:43 AM [vite] (client) hmr update /src/index.css
+9:53:43 AM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+9:53:45 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:53:45 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:06:31 AM [vite] (client) hmr update /src/index.css
+10:06:46 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:07:09 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:07:25 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:07:39 AM [vite] (client) hmr update /src/index.css
+10:07:39 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:12:07 AM [vite] (client) hmr update /src/index.css
+10:12:20 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:13:05 AM [vite] (client) hmr update /src/index.css
+10:13:05 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:16:54 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+10:17:17 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+10:20:38 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:21:04 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:32:19 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+10:32:19 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+10:32:19 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:32:42 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+10:33:24 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+10:33:24 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+10:33:24 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+10:33:24 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:36:46 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+10:36:47 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+10:36:47 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+10:37:05 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:37:26 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:38:05 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+10:38:05 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+10:38:05 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+10:38:06 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+10:38:06 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+12:44:01 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:44:11 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:44:21 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:44:31 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:45:07 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:45:21 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:55:31 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:56:10 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+12:56:22 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+1:46:44 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+1:47:23 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+1:49:26 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+1:50:25 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+1:52:28 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+1:52:38 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+1:52:48 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+1:52:57 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+1:53:08 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+1:53:08 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+1:53:08 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:33:51 PM [vite] (client) hmr update /src/index.css
+2:34:06 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:34:28 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:35:01 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:35:01 PM [vite] (client) hmr update /src/index.css
+2:44:18 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:44:18 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:44:18 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:44:18 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:44:18 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:44:20 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:44:20 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+2:46:20 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:46:20 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:46:20 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:46:20 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:46:20 PM [vite] (client) hmr update /src/index.css
+2:46:20 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:46:21 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:46:21 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:46:24 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:46:24 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+2:48:15 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:48:15 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:48:15 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:48:42 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:48:42 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:48:44 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:48:44 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+2:49:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:49:57 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:49:57 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:49:57 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:49:57 PM [vite] (client) hmr update /src/index.css
+2:49:57 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:49:58 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:49:58 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:49:58 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+2:49:58 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+2:49:58 PM [vite] (client) hmr update /src/index.css
+2:49:58 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+2:50:01 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:50:01 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:21:27 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:21:27 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+3:21:27 PM [vite] (client) hmr update /src/index.css
+3:21:27 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+3:21:28 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:21:28 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:21:28 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+3:21:32 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:21:32 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+3:22:47 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+3:22:47 PM [vite] (client) hmr update /src/index.css
+3:22:47 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:22:47 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:22:48 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+3:22:48 PM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+3:22:48 PM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:22:48 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+3:22:48 PM [vite] (client) hmr update /src/index.css
+3:22:49 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:22:49 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+3:45:36 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+3:45:36 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+3:45:36 PM [vite] (client) hmr update /src/index.css, /src/components/form/Button.tsx
+3:45:37 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+3:45:37 PM [vite] (client) hmr update /src/pages/Posts.tsx, /src/index.css
+3:45:37 PM [vite] (client) hmr update /src/pages/Rooms.tsx, /src/index.css
+3:45:37 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:45:37 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+3:45:37 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+3:45:37 PM [vite] (client) hmr update /src/index.css, /src/pages/users/UserModal.tsx
+3:45:37 PM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+3:45:38 PM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+3:45:38 PM [vite] (client) hmr update /src/index.css
+3:45:38 PM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+3:45:38 PM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx
+9:58:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+9:58:22 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+9:58:22 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+9:58:22 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+9:58:22 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+9:58:23 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+9:58:23 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+9:58:23 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+9:58:23 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+9:58:23 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/permission/Permission.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureStepsModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/pages/Videos.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Header.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/users/UserList.tsx
+9:58:24 AM [vite] (client) hmr update /src/pages/UserTrainingRecords.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/Posts.tsx, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/Comments.tsx, /src/pages/PostLikes.tsx, /src/pages/Videos.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/contexts/MenuContext.tsx, /src/pages/OperationLogs.tsx, /src/pages/Training.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/app-settings/AppSettings.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/help-categories/HelpCategories.tsx, /src/pages/voice-types/VoiceTypes.tsx, /src/pages/ai-roles/AIRoles.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/exposure-modules/ExposureModules.tsx, /src/pages/permission/Permission.tsx, /src/pages/users/UserList.tsx, /src/pages/help-articles/HelpArticles.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/voice-types/VoiceTypeModal.tsx, /src/pages/help-categories/HelpCategoryModal.tsx, /src/pages/app-settings/AppSettingModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/ai-roles/AIRoleModal.tsx, /src/pages/exposure-modules/ExposureStepsModal.tsx, /src/pages/exposure-modules/ExposureModuleModal.tsx, /src/pages/help-articles/HelpArticleModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx, /src/pages/CorrectionCenter.tsx, /src/pages/RandomMatch.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoles.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/exposure-modules/ExposureModules.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/CorrectionCenter.tsx
+9:58:24 AM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypes.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+9:58:24 AM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/voice-types/VoiceTypeModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/index.css, /src/pages/ai-roles/AIRoleModal.tsx
+9:58:24 AM [vite] (client) hmr update /src/contexts/MenuContext.tsx, /src/index.css
+9:58:27 AM [vite] (client) hmr invalidate /src/contexts/MenuContext.tsx Could not Fast Refresh ("useMenuContext" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:58:27 AM [vite] (client) hmr update /src/App.tsx, /src/components/layout/Sidebar.tsx

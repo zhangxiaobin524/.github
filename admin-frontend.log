@@ -1,0 +1,79 @@
+
+> fluent-life-admin-frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 286 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+11:14:59 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+11:15:07 AM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+11:24:45 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+11:24:59 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+11:25:19 AM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+1:52:16 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+1:52:16 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+1:52:17 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/Training.tsx, /src/pages/Posts.tsx, /src/pages/Comments.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/OperationLogs.tsx, /src/pages/PostLikes.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/pages/users/UserList.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+1:52:17 PM [vite] (client) hmr update /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+1:52:17 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+1:52:17 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+1:53:55 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+1:53:56 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+1:53:56 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/Training.tsx, /src/pages/Posts.tsx, /src/pages/Comments.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/OperationLogs.tsx, /src/pages/PostLikes.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/pages/users/UserList.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+1:53:56 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+1:53:56 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+1:53:56 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:14:19 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/components/common/Table.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/tongue-twisters/TongueTwisters.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressionModal.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/daily-expressions/DailyExpressions.tsx
+2:14:19 PM [vite] (client) hmr update /src/pages/Training.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/pages/Comments.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/pages/FollowsCollections.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/pages/OperationLogs.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/pages/PostLikes.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniqueModal.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/Login.tsx, /src/pages/Rooms.tsx, /src/pages/Training.tsx, /src/pages/Posts.tsx, /src/pages/Comments.tsx, /src/pages/UserTrainingRecords.tsx, /src/pages/FollowsCollections.tsx, /src/pages/OperationLogs.tsx, /src/pages/PostLikes.tsx, /src/pages/legal-documents/LegalDocuments.tsx, /src/pages/users/UserList.tsx, /src/pages/daily-expressions/DailyExpressions.tsx, /src/pages/dashboard/Dashboard.tsx, /src/pages/speech-techniques/SpeechTechniques.tsx, /src/pages/tongue-twisters/TongueTwisters.tsx, /src/pages/legal-documents/LegalDocumentModal.tsx, /src/pages/daily-expressions/DailyExpressionModal.tsx, /src/pages/speech-techniques/SpeechTechniqueModal.tsx, /src/pages/tongue-twisters/TongueTwisterModal.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.tsx
+2:14:19 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/components/form/Textarea.tsx
+2:14:19 PM [vite] (client) hmr update /src/pages/legal-documents/LegalDocuments.tsx, /src/index.css
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/legal-documents/LegalDocumentModal.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/speech-techniques/SpeechTechniques.tsx
+2:14:19 PM [vite] (client) hmr update /src/index.css, /src/pages/dashboard/Dashboard.tsx
